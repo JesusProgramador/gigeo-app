@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+// colors setup
+$swamp: #001614;
+$gray: #888;
+$silver: #CCC;
+$white: #FFF;
+$sky-blue: #79DEE7;
+$persimmon: #FF565B;
+// fonts setup
+$lato: 'Lato',
+sans-serif;
+$lato-weight-regular: 400;
+$font-size-xxx-large: 40px;
+$font-size-xx-large: 30px;
+$font-size-x-large: 20px;
+$font-size-large: 18px;
+$font-size-medium: 16px;
+$font-size-small: 14px;
+$font-size-x-small: 12px;
+$primary-font: $lato;
+// breakpoints
+$bp-xs: 320px;
+$bp-sm:576px;
+$bp-md:768px;
+$bp-lg:992px;
+$bp-xl:1200px;

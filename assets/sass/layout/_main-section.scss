@@ -1,0 +1,62 @@
+    .hero__container {
+        height: 250px;
+        background-image: url('/assets/img/image-banner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80%;
+    }
+    
+    .profile__image--center {
+        align-self: center;
+    }
+    
+    .profile__image {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 90px;
+    }
+    
+    .profile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -1rem;
+    }
+    
+    .card-title,
+    .cards__title {
+        font-weight: 700;
+    }
+    
+    .card-text {
+        margin-top: -0.7rem;
+    }
+    
+    .btn__item {
+        padding: 0.25rem 1.5rem;
+        border: none;
+        border-radius: 0.25rem;
+        color: $white;
+        cursor: pointer;
+    }
+    
+    .btn--blue {
+        background-color: $sky-blue;
+    }
+    
+    .btn--red {
+        background-color: $persimmon;
+    }
+    
+    @media screen and(min-width:$bp-xs) and (max-width: $bp-md) {
+        .hero__container {
+            height: 6.25rem;
+        }
+        .card__profile {
+            margin: 0 auto;
+        }
+        .profile__btn {
+            display: none;
+        }
+    }
