@@ -50,6 +50,13 @@
     }
     
     @media screen and(min-width:$bp-xs) and (max-width: $bp-md) {
+        .hero__container {
+            height: 6.25rem;
+            background-image: url('/assets/img/image-banner.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 80%;
+        }
         .card__profile {
             margin: 0 auto;
         }
