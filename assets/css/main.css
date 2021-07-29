@@ -9970,8 +9970,9 @@ card-title {
 }
 
 .hero__container {
+  width: 100%;
   height: 250px;
-  background-image: url("/assets/img/image-banner.png");
+  background-image: url(/assets/img/image-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80%;
@@ -10021,6 +10022,14 @@ card-title {
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  .hero__container {
+    height: 6.25rem;
+    background-image: url("/assets/img/image-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+  }
+
   .card__profile {
     margin: 0 auto;
   }
