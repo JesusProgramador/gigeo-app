@@ -50,9 +50,6 @@
     }
     
     @media screen and(min-width:$bp-xs) and (max-width: $bp-md) {
-        .hero__container {
-            height: 6.25rem;
-        }
         .card__profile {
             margin: 0 auto;
         }

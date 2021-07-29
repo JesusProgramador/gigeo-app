@@ -10021,10 +10021,6 @@ card-title {
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .hero__container {
-    height: 6.25rem;
-  }
-
   .card__profile {
     margin: 0 auto;
   }
